@@ -1,4 +1,4 @@
-body {
+/* body {
     max-width: 800px;
     margin: 0 auto;
   }
@@ -21,5 +21,56 @@ body {
   
   p, li, dd, dt, address {
     line-height: 1.5;
-  }
-  
+  } */
+body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.sender-column {
+    text-align: right;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+h2 {
+    font-size: 1.3em;
+}
+
+p, ul, ol, dl, address {
+    font-size: 1.1em;
+}
+
+p, li, dd, dt, address {
+    line-height: 1.5;
+}
+
+.date {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.recipient {
+    font-style: italic;
+}
+
+.signature {
+    margin-top: 40px;
+}
+
+a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.indent {
+  padding-left: 30px;
+  margin: 0;
+}
+
+.noMargin {
+  margin: 0;
+}
